@@ -28,7 +28,7 @@ p,
 span,
 a,
 footer {
-    font-size: clamp(15px, 4vw, 28px) !important;
+    font-size: clamp(17px, 4vw, 28px) !important;
 }
 
 .container {

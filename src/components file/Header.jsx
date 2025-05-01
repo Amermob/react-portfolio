@@ -11,7 +11,7 @@ export default function Header() {
     document.querySelector(".option").style.display = "flex";
   }
   return (
-    <header>
+    <header id="home">
       <a className="logo" href="#home">
         AM
       </a>
