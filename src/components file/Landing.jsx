@@ -7,7 +7,7 @@ export default function Landing() {
           <h1>self-taught </h1>
           <h1>front end developer</h1>
           <div className="img-section">
-            <img src="/imgs/HTML.png" alt="" />
+            <img src="/public/imgs/HTML.png" alt="" />
             <img src="/imgs/CSS.png" alt="" />
             <img src="/imgs/JS.png" alt="" />
             <img src="/imgs/react.png" alt="" />
