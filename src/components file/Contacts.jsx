@@ -20,7 +20,7 @@ export default function Contacts() {
             className="github"
             href="https://github.com/Amermob"
           >
-            <img src="/imgs/github.png" alt="" />
+            <img src="imgs/github.png" alt="" />
           </a>
           <p>E-mail: amermob5@gmail.com</p>
           <p>Location: Riyadh, Al Jiradiyah</p>

@@ -2,7 +2,7 @@ export default function Me() {
   return (
     <div id="me" className="me">
       <div className="img-section">
-        <img src="/imgs/in-sombrero.jpg" alt="picture-of-me-in-sombrero" />
+        <img src="imgs/in-sombrero.jpg" alt="picture-of-me-in-sombrero" />
       </div>
       <div className="text-section">
         <p>

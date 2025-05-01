@@ -12,7 +12,7 @@ export default function Portfolio() {
     {
       id: 1,
       title: "Sombrero Coffee Shop",
-      img: "/imgs/sombrero.png",
+      img: "imgs/sombrero.png",
       alt: "sombrero website image",
       code: "https://github.com/Amermob/Sombrero-Coffee-Shop",
       link: "https://amermob.github.io/Sombrero-Coffee-Shop/",
@@ -20,7 +20,7 @@ export default function Portfolio() {
     {
       id: 2,
       title: "Sabahat Al Eid",
-      img: "/imgs/sabahat al eid.png",
+      img: "imgs/sabahat al eid.png",
       alt: "Sabahat al Eid Website image",
       code: "https://github.com/Amermob/Sabahat-al-Eid",
       link: "https://amermob.github.io/Sabahat-al-Eid/",
