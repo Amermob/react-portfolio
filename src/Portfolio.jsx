@@ -7,7 +7,6 @@ import Projects from "./components file/Projects";
 import Title from "./components file/Title";
 import Contacts from "./components file/Contacts";
 import Footer from "./components file/Footer";
-import { Routes, Route } from "react-router";
 export default function Portfolio() {
   const projects = [
     {
@@ -53,7 +52,7 @@ export default function Portfolio() {
         </div>
       </div>
       <Title title={"Contacts"} />
-      <Contacts   />
+      <Contacts />
       <Footer />
     </>
   );
