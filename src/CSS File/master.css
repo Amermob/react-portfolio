@@ -38,10 +38,18 @@ footer {
     margin-right: auto;
 }
 
+.show-in-mobile {
+    display: none;
+}
+
 
 @media (max-width:736px) {
     .hide-on-mobile {
         display: none !important;
+    }
+
+    .show-in-mobile {
+        display: block;
     }
 
     .ball-container {
@@ -177,7 +185,6 @@ header {
             }
 
             .handel-ball {
-                /* position: absolute !important; */
                 top: 4px !important;
                 left: 42px !important;
             }

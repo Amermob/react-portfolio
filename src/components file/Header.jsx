@@ -29,7 +29,7 @@ export default function Header() {
           <div className="hide-on-mobile">
             <DarkLight />
           </div>
-          <li>
+          <li className="show-in-mobile">
             <a href="#">
               <svg
                 onClick={sidebar}
