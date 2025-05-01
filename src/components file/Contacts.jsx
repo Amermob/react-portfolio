@@ -1,4 +1,3 @@
-
 export default function Contacts() {
   function handleForm(formData) {
     const name = formData.get("name");
@@ -8,7 +7,6 @@ export default function Contacts() {
     console.log(email);
     console.log(textarea);
   }
-
 
   return (
     <div className="container">
@@ -20,7 +18,7 @@ export default function Contacts() {
             className="github"
             href="https://github.com/Amermob"
           >
-            <img src="imgs/github.png" alt="" />
+            <img src="imgs/GitHub.png" alt="github logo" />
           </a>
           <p>E-mail: amermob5@gmail.com</p>
           <p>Location: Riyadh, Al Jiradiyah</p>
