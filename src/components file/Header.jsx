@@ -10,21 +10,25 @@ export default function Header() {
     document.querySelector(".sidebar").style.display = "none";
     document.querySelector(".option").style.display = "flex";
   }
+
+  function scrollIntoElements(e) {
+  console.log(e.target)
+  }
   return (
     <header id="home">
-      <a className="logo" href="#home">
+      <a className="logo" onClick={scrollIntoElements}>
         AM
       </a>
       <nav className="option">
         <ul>
           <li className="hide-on-mobile">
-            <a href="#me">Me</a>
+            <a onClick={scrollIntoElements}>Me</a>
           </li>
           <li className="hide-on-mobile">
-            <a href="#projects">Project</a>
+            <a>Project</a>
           </li>
           <li className="hide-on-mobile">
-            <a href="#contacts">Contacts</a>
+            <a onClick={scrollIntoElements}>Contacts</a>
           </li>
           <div className="hide-on-mobile">
             <DarkLight />
@@ -62,13 +66,13 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="#me">Me</a>
+            <a onClick={scrollIntoElements}>Me</a>
           </li>
           <li>
-            <a href="#projects">Project</a>
+            <a onClick={scrollIntoElements}>Project</a>
           </li>
           <li>
-            <a href="#contacts">Contacts</a>
+            <a onClick={scrollIntoElements}>Contacts</a>
           </li>
           <DarkLight />
         </ul>
