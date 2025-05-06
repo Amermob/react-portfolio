@@ -11,12 +11,12 @@ export default function Header() {
     document.querySelector(".option").style.display = "flex";
   }
 
-  function scrollIntoElements(e) {
-    if(e.target.value === document.querySelector(e.target.value))
-      document.querySelector(e.target.value).scrollintoview({
-        behavior:"smooth"
-      })
-    }
+  document.querySelector(".me").addEventListener("click", () => {
+    document.querySelector("#home").scrollintoview({
+      behaviour: "smooth",
+    });
+  })
+  
   return (
     <header id="home">
       <a className="logo" onClick={scrollIntoElements}>
