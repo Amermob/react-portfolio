@@ -24,14 +24,14 @@ export default function Header() {
       </a>
       <nav className="option">
         <ul>
-          <li className="hide-on-mobile">
-            <a onClick={scrollIntoElements}>Me</a>
+          <li className="hide-on-mobile me">
+            <a>Me</a>
           </li>
           <li className="hide-on-mobile">
-            <a onClick={scrollIntoElements}>Project</a>
+            <a>Project</a>
           </li>
           <li className="hide-on-mobile">
-            <a onClick={scrollIntoElements}>Contacts</a>
+            <a>Contacts</a>
           </li>
           <div className="hide-on-mobile">
             <DarkLight />
@@ -69,13 +69,13 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a onClick={scrollIntoElements}>Me</a>
+            <a>Me</a>
           </li>
           <li>
-            <a onClick={scrollIntoElements}>Project</a>
+            <a>Project</a>
           </li>
           <li>
-            <a onClick={scrollIntoElements}>Contacts</a>
+            <a>Contacts</a>
           </li>
           <DarkLight />
         </ul>
