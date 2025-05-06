@@ -12,8 +12,11 @@ export default function Header() {
   }
 
   function scrollIntoElements(e) {
-  console.log(e.target)
-  }
+    if(e.target.value === document.querySelector(e.target.value))
+      document.querySelector(e.target.value).scrollintoview({
+        behavior:"smooth"
+      })
+    }
   return (
     <header id="home">
       <a className="logo" onClick={scrollIntoElements}>
@@ -25,7 +28,7 @@ export default function Header() {
             <a onClick={scrollIntoElements}>Me</a>
           </li>
           <li className="hide-on-mobile">
-            <a>Project</a>
+            <a onClick={scrollIntoElements}>Project</a>
           </li>
           <li className="hide-on-mobile">
             <a onClick={scrollIntoElements}>Contacts</a>
