@@ -11,11 +11,11 @@ export default function Header() {
     document.querySelector(".option").style.display = "flex";
   }
 
-  document.querySelector(".me").addEventListener("click", () => {
+  function handelMe() {
     document.querySelector("#home").scrollintoview({
       behaviour: "smooth",
     });
-  })
+  }
   
   return (
     <header id="home">
@@ -25,7 +25,7 @@ export default function Header() {
       <nav className="option">
         <ul>
           <li className="hide-on-mobile me">
-            <a>Me</a>
+            <a onClick={handelMe}>Me</a>
           </li>
           <li className="hide-on-mobile">
             <a>Project</a>
