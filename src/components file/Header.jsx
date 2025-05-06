@@ -19,7 +19,7 @@ export default function Header() {
   
   return (
     <header id="home">
-      <a className="logo" onClick={scrollIntoElements}>
+      <a className="logo" >
         AM
       </a>
       <nav className="option">
