@@ -11,75 +11,72 @@ export default function Header() {
     document.querySelector(".option").style.display = "flex";
   }
 
-  function handelMe() {
-    document.querySelector("#home").scrollintoview({
-      behaviour: "smooth",
-    });
-  }
-  
   return (
-    <header id="home">
-      <a className="logo" >
-        AM
-      </a>
-      <nav className="option">
-        <ul>
-          <li className="hide-on-mobile me">
-            <a onClick={handelMe}>Me</a>
-          </li>
-          <li className="hide-on-mobile">
-            <a>Project</a>
-          </li>
-          <li className="hide-on-mobile">
-            <a>Contacts</a>
-          </li>
-          <div className="hide-on-mobile">
+    <>
+      <div id="home"></div>
+      <header>
+        <a className="logo" href="#home">
+          AM
+        </a>
+        <nav className="option">
+          <ul>
+            <li className="hide-on-mobile">
+              <a href="#me">Me</a>
+            </li>
+            <li className="hide-on-mobile">
+              <a href="#projects">Project</a>
+            </li>
+            <li className="hide-on-mobile">
+              <a href="#contacts">Contacts</a>
+            </li>
+            <div className="hide-on-mobile">
+              <DarkLight />
+            </div>
+            <li className="show-in-mobile">
+              <a>
+                <svg
+                  onClick={sidebar}
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="30px"
+                  viewBox="0 -960 960 960"
+                  width="30px"
+                  fill="#e3e3e3"
+                >
+                  <path d="M120-240v-80h520v80H120Zm664-40L584-480l200-200 56 56-144 144 144 144-56 56ZM120-440v-80h400v80H120Zm0-200v-80h520v80H120Z" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav className="sidebar">
+          <ul>
+            <li>
+              <a>
+                <svg
+                  onClick={hideSidebar}
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="30px"
+                  viewBox="0 -960 960 960"
+                  width="35px"
+                  fill="#e3e3e3"
+                >
+                  <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#me">Me</a>
+            </li>
+            <li>
+              <a href="#projects">Project</a>
+            </li>
+            <li>
+              <a href="#contacts">Contacts</a>
+            </li>
             <DarkLight />
-          </div>
-          <li className="show-in-mobile">
-            <a href="#">
-              <svg
-                onClick={sidebar}
-                xmlns="http://www.w3.org/2000/svg"
-                height="30px"
-                viewBox="0 -960 960 960"
-                width="30px"
-                fill="#e3e3e3"
-              >
-                <path d="M120-240v-80h520v80H120Zm664-40L584-480l200-200 56 56-144 144 144 144-56 56ZM120-440v-80h400v80H120Zm0-200v-80h520v80H120Z" />
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <nav className="sidebar">
-        <ul>
-          <li>
-            <a href="#">
-              <svg
-                onClick={hideSidebar}
-                xmlns="http://www.w3.org/2000/svg"
-                height="30px"
-                viewBox="0 -960 960 960"
-                width="35px"
-                fill="#e3e3e3"
-              >
-                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a>Me</a>
-          </li>
-          <li>
-            <a>Project</a>
-          </li>
-          <li>
-            <a>Contacts</a>
-          </li>
-          <DarkLight />
-        </ul>
-      </nav>
-    </header>
+          </ul>
+        </nav>
+      </header>
+    </>
   );
 }
