@@ -3,9 +3,6 @@ export default function Contacts() {
     const name = formData.get("name");
     const email = formData.get("e-mail");
     const textarea = formData.get("info");
-    console.log(name);
-    console.log(email);
-    console.log(textarea);
   }
 
   return (
@@ -20,6 +17,14 @@ export default function Contacts() {
           >
             <img src="imgs/GitHub.png" alt="github logo" />
           </a>
+          <a
+            target="_blank"
+            className="github"
+            href="https://www.linkedin.com/in/amer-uthman/"
+          >
+            <img src="imgs/linkedin.png" alt="linkedin logo" />
+          </a>
+
           <p>E-mail: amermob5@gmail.com</p>
           <p>Location: Riyadh, Al Jiradiyah</p>
           <a
@@ -29,7 +34,11 @@ export default function Contacts() {
             View Resume
           </a>
         </div>
-        <form action={handleForm}>
+        <form
+          target="_blank"
+          action="https://formspree.io/f/mknegpzg"
+          method="POST"
+        >
           <label htmlFor="name">Name:</label>
           <input id="name" name="name" type="text" />
           <label htmlFor="email">E-mail</label>
