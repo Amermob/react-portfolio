@@ -298,7 +298,22 @@ header {
     }
 }
 
+.container {
+    h3 {
+        text-align: center;
+    }
+}
+
+hr {
+    padding: 4px;
+    background: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
 .projects {
+
+
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -321,7 +336,10 @@ header {
             margin: 0;
         }
 
+
+
         img {
+            object-fit: cover;
             width: 100%;
             height: 220px;
             margin: 10px 0;
@@ -347,16 +365,26 @@ header {
                 -o-border-radius: 10px;
             }
         }
+
+        .skills {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 10px;
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        p {
+            margin: 12px;
+            font-size: 18px !important;
+        }
     }
 }
 
-footer {
-    margin-top: 50px;
-    background-color: var(--secondary-b-g-color);
-    padding: 70px;
-    text-align: center;
-    font-weight: bold;
-}
+
 
 .contacts {
     display: flex;
@@ -395,6 +423,7 @@ footer {
     }
 
     .github {
+        margin-right: 10px;
         img {
             width: 50px;
             height: 50px;
@@ -445,4 +474,13 @@ footer {
             -o-border-radius: 10px;
         }
     }
+}
+
+
+footer {
+    margin-top: 50px;
+    background-color: var(--secondary-b-g-color);
+    padding: 70px;
+    text-align: center;
+    font-weight: bold;
 }
