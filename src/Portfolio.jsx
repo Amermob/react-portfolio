@@ -242,6 +242,17 @@ export default function Portfolio() {
       css: "imgs/CSS.png",
       js: "imgs/JS.png",
     },
+    {
+      id: 16,
+      title: "Metric/Imperial Unit Conversion",
+      img: "imgs/learning-projects/calc-unit.png",
+      alt: "Metric/Imperial Unit Conversion Website image",
+      code: "https://github.com/Amermob/Metric-Imperial-Unit-Conversion",
+      link: "https://amermob.github.io/Metric-Imperial-Unit-Conversion/",
+      html: "imgs/HTML.png",
+      css: "imgs/CSS.png",
+      js: "imgs/JS.png",
+    },
   ];
   const learningProjectsList = learningProjects.map((project) => {
     return (
