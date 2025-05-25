@@ -257,6 +257,17 @@ export default function AllProjects() {
       css: "imgs/CSS.png",
       js: "imgs/JS.png",
     },
+        {
+      id: 19,
+      title: "Twitter Clone for Cats",
+      img: "imgs/learning-projects/twitter-clone-for-cats.png",
+      alt: "PTwitter Clone for Cats Website image",
+      code: "https://github.com/Amermob/twitter-clone-for-cat",
+      link: "https://amermob.github.io/twitter-clone-for-cat/",
+      html: "imgs/HTML.png",
+      css: "imgs/CSS.png",
+      js: "imgs/JS.png",
+    },
   ];
   const learningProjectsList = learningProjects.map((project) => {
     return (
