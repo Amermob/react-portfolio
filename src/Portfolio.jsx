@@ -15,7 +15,7 @@ export default function Portfolio() {
       <Landing />
       <Title title={"about me"} />
       <Me />
-      <Title title={"Customer Projects"} />
+      <Title title={"Projects"} />
       <AllProjects />
       <Title title={"Contacts"} />
       <Contacts />
