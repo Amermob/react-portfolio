@@ -268,6 +268,17 @@ export default function AllProjects() {
       css: "imgs/CSS.png",
       js: "imgs/JS.png",
     },
+            {
+      id: 20,
+      title: "Color Scheme with API",
+      img: "imgs/learning-projects/color-cheme-with-api.png",
+      alt: "Color Scheme with API Website image",
+      code: "https://github.com/Amermob/color-scheme-using-api",
+      link: "https://amermob.github.io/color-scheme-using-api/",
+      html: "imgs/HTML.png",
+      css: "imgs/CSS.png",
+      js: "imgs/JS.png",
+    },
   ];
   const learningProjectsList = learningProjects.map((project) => {
     return (
