@@ -257,7 +257,7 @@ export default function AllProjects() {
       css: "imgs/CSS.png",
       js: "imgs/JS.png",
     },
-        {
+       {
       id: 19,
       title: "Twitter Clone for Cats",
       img: "imgs/learning-projects/twitter-clone-for-cats.png",
@@ -268,13 +268,24 @@ export default function AllProjects() {
       css: "imgs/CSS.png",
       js: "imgs/JS.png",
     },
-            {
+        {
       id: 20,
       title: "Color Scheme with API",
       img: "imgs/learning-projects/color-cheme-with-api.png",
       alt: "Color Scheme with API Website image",
       code: "https://github.com/Amermob/color-scheme-using-api",
       link: "https://amermob.github.io/color-scheme-using-api/",
+      html: "imgs/HTML.png",
+      css: "imgs/CSS.png",
+      js: "imgs/JS.png",
+    },
+        {
+      id: 21,
+      title: "Card Game using with API",
+      img: "imgs/learning-projects/card-game.png",
+      alt: "Card Game using with API Website image",
+      code: "https://github.com/Amermob/game-card",
+      link: "https://amermob.github.io/game-card/",
       html: "imgs/HTML.png",
       css: "imgs/CSS.png",
       js: "imgs/JS.png",
