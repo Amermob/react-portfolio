@@ -1,4 +1,17 @@
 import DarkLight from "./DarkLight";
+window.onscroll = () => {
+  if (scrollY >= 1000) {
+    document.querySelector(".scrollUp").style.display = "block";
+    document.querySelector(".scrollUp").addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    });
+  } else {
+    document.querySelector(".scrollUp").style.display = "none";
+  }
+};
 
 export default function Header() {
   function sidebar() {
@@ -13,6 +26,7 @@ export default function Header() {
 
   return (
     <>
+        <i class="scrollUp fa-solid fa-arrow-up"></i>
       <div id="home"></div>
       <header>
         <a className="logo" href="#home">
