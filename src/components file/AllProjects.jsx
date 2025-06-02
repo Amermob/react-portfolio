@@ -285,17 +285,6 @@ export default function AllProjects() {
     return (
       <Projects
         {...project}
-{/*         key={project.id}
-        title={project.title}
-        img={project.img}
-        alt={project.alt}
-        code={project.code}
-        link={project.link}
-        tech={project.tech}
-        html={project.html}
-        css={project.css}
-        js={project.js}
-        react={project.react} */}
       />
     );
   });
