@@ -41,7 +41,8 @@ export default function AllProjects() {
     console.log(project.tech);
     return (
       <Projects
-        key={project.id}
+        {...project}
+{/*         key={project.id}
         title={project.title}
         img={project.img}
         alt={project.alt}
@@ -51,7 +52,7 @@ export default function AllProjects() {
         html={project.html}
         css={project.css}
         js={project.js}
-        react={project.react}
+        react={project.react} */}
       />
     );
   });
