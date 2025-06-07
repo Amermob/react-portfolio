@@ -280,6 +280,18 @@ export default function AllProjects() {
       css: "imgs/CSS.png",
       js: "imgs/JS.png",
     },
+      {
+      id: 22,
+      title: "Tenzies Game",
+      img: "imgs/learning-projects/tenzies-game.png",
+      alt: "Tenzies Game Website image",
+      code: "https://github.com/Amermob/Tenzies-game",
+      link: "https://amermob.github.io/Tenzies-game/",
+      html: "imgs/HTML.png",
+      css: "imgs/CSS.png",
+      js: "imgs/JS.png",
+      react: "imgs/react.png",
+    },
   ];
   const learningProjectsList = learningProjects.map((project) => {
     return (
