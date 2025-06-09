@@ -292,6 +292,18 @@ export default function AllProjects() {
       js: "imgs/JS.png",
       react: "imgs/react.png",
     },
+          {
+      id: 23,
+      title: "Quiz Game",
+      img: "imgs/learning-projects/quiz.png",
+      alt: "Quiz Game Website image",
+      code: "https://github.com/Amermob/Quizzical",
+      link: "https://amermob.github.io/Quizzical/",
+      html: "imgs/HTML.png",
+      css: "imgs/CSS.png",
+      js: "imgs/JS.png",
+      react: "imgs/react.png",
+    },
   ];
   const learningProjectsList = learningProjects.map((project) => {
     return (
