@@ -1,38 +1,47 @@
 import DarkLight from "./DarkLight";
-window.onscroll = () => {
-  if (scrollY >= 1000) {
-    document.querySelector(".scrollUp").style.display = "block";
-    document.querySelector(".scrollUp").addEventListener("click", () => {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    });
-  } else {
-    document.querySelector(".scrollUp").style.display = "none";
-  }
-};
+import { useRef } from "react";
 
 export default function Header() {
+  const scrollUp = useRef();
+  const sideBarRef = useRef();
+  const hideSidebarRef = useRef();
+
+  window.onscroll = () => {
+    if (scrollY >= 1000) {
+      scrollUp.current.style.display = "block";
+    } else {
+      scrollUp.current.style.display = "none";
+    }
+  };
+
   function sidebar() {
-    document.querySelector(".sidebar").style.display = "flex";
-    document.querySelector(".option").style.display = "none";
+    sideBarRef.current.style.display = "flex";
+    hideSidebarRef.current.style.display = "none";
   }
 
   function hideSidebar() {
-    document.querySelector(".sidebar").style.display = "none";
-    document.querySelector(".option").style.display = "flex";
+    sideBarRef.current.style.display = "none";
+    hideSidebarRef.current.style.display = "flex";
   }
 
   return (
     <>
-        <i class="scrollUp fa-solid fa-arrow-up"></i>
+      <i
+        onClick={() =>
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          })
+        }
+        ref={scrollUp}
+        class="scrollUp fa-solid fa-arrow-up"
+      ></i>
       <div id="home"></div>
       <header>
         <a className="logo" href="#home">
           AM
         </a>
-        <nav className="option">
+        <nav ref={hideSidebarRef} className="option">
           <ul>
             <li className="hide-on-mobile">
               <a href="#me">Me</a>
@@ -62,7 +71,7 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <nav className="sidebar">
+        <nav ref={sideBarRef} className="sidebar">
           <ul>
             <li>
               <a>
