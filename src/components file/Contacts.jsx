@@ -29,7 +29,7 @@ export default function Contacts() {
           <p>Location: Riyadh, Al Jiradiyah</p>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/19w-KFnNqDiSj6NYkydkchBDr71mY55qd/view?usp=sharing"
+            href="https://drive.google.com/file/d/1_fWELNSJDiV2TuS0gvDgurhx_Cl79yCK/view?usp=sharing"
           >
             View Resume
           </a>
