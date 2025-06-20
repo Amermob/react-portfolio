@@ -39,15 +39,11 @@ export default function AllProjects() {
   ];
   const paidProjectsList = paidProjects.map((project) => {
     console.log(project.tech);
-    return (
-      <Projects
-        {...project}
-      />
-    );
+    return <Projects key={project.id} {...project} />;
   });
 
   const learningProjects = [
-          {
+    {
       id: 4,
       title: "Tenzies Game",
       img: "imgs/learning-projects/tenzies-game.png",
@@ -59,7 +55,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
       react: "imgs/react.png",
     },
-              {
+    {
       id: 5,
       title: "Assembly:Endgame",
       img: "imgs/learning-projects/endgame.png",
@@ -71,8 +67,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
       react: "imgs/react.png",
     },
-    
-          {
+    {
       id: 6,
       title: "Quiz Game",
       img: "imgs/learning-projects/quiz.png",
@@ -86,17 +81,6 @@ export default function AllProjects() {
     },
     {
       id: 7,
-      title: "Generate a Password",
-      img: "imgs/learning-projects/password-generator.png",
-      alt: "Generate a Random Password",
-      code: "https://github.com/Amermob/Generate-a-random-password",
-      link: "https://amermob.github.io/Generate-a-random-password/",
-      html: "imgs/HTML.png",
-      css: "imgs/CSS.png",
-      js: "imgs/JS.png",
-    },
-    {
-      id: 8,
       title: "Memes Generator",
       img: "imgs/learning-projects/meme-generator.png",
       alt: "Memes Generator Website image",
@@ -108,7 +92,7 @@ export default function AllProjects() {
       react: "imgs/react.png",
     },
     {
-      id: 9,
+      id: 8,
       title: "Dragon Ball Character",
       img: "imgs/learning-projects/dragon-ball-characters-with-api.png",
       alt: "Dragon Ball Character Website image",
@@ -118,6 +102,17 @@ export default function AllProjects() {
       css: "imgs/CSS.png",
       js: "imgs/JS.png",
       react: "imgs/react.png",
+    },
+    {
+      id: 9,
+      title: "Generate a Password",
+      img: "imgs/learning-projects/password-generator.png",
+      alt: "Generate a Random Password",
+      code: "https://github.com/Amermob/Generate-a-random-password",
+      link: "https://amermob.github.io/Generate-a-random-password/",
+      html: "imgs/HTML.png",
+      css: "imgs/CSS.png",
+      js: "imgs/JS.png",
     },
     {
       id: 10,
@@ -196,7 +191,7 @@ export default function AllProjects() {
       css: "imgs/CSS.png",
       js: "imgs/JS.png",
     },
-       {
+    {
       id: 17,
       title: "Twitter Clone for Cats",
       img: "imgs/learning-projects/twitter-clone-for-cats.png",
@@ -207,7 +202,7 @@ export default function AllProjects() {
       css: "imgs/CSS.png",
       js: "imgs/JS.png",
     },
-        {
+    {
       id: 18,
       title: "Color Scheme with API",
       img: "imgs/learning-projects/color-cheme-with-api.png",
@@ -218,7 +213,7 @@ export default function AllProjects() {
       css: "imgs/CSS.png",
       js: "imgs/JS.png",
     },
-        {
+    {
       id: 19,
       title: "Card Game using with API",
       img: "imgs/learning-projects/card-game.png",
@@ -229,14 +224,9 @@ export default function AllProjects() {
       css: "imgs/CSS.png",
       js: "imgs/JS.png",
     },
-
   ];
   const learningProjectsList = learningProjects.map((project) => {
-    return (
-      <Projects
-        {...project}
-      />
-    );
+    return <Projects key={project.id} {...project} />;
   });
   return (
     <div className="container">
