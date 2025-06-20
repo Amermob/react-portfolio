@@ -59,8 +59,21 @@ export default function AllProjects() {
       js: "imgs/JS.png",
       react: "imgs/react.png",
     },
-          {
+              {
       id: 5,
+      title: "Assembly:Endgame",
+      img: "imgs/learning-projects/endgame.png",
+      alt: "Assembly-Endgame Website image",
+      code: "https://github.com/Amermob/Assembly-Endgame",
+      link: "https://amermob.github.io/Assembly-Endgame/",
+      html: "imgs/HTML.png",
+      css: "imgs/CSS.png",
+      js: "imgs/JS.png",
+      react: "imgs/react.png",
+    },
+    
+          {
+      id: 6,
       title: "Quiz Game",
       img: "imgs/learning-projects/quiz.png",
       alt: "Quiz Game Website image",
@@ -72,7 +85,7 @@ export default function AllProjects() {
       react: "imgs/react.png",
     },
     {
-      id: 6,
+      id: 7,
       title: "Generate a Password",
       img: "imgs/learning-projects/password-generator.png",
       alt: "Generate a Random Password",
@@ -83,7 +96,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 7,
+      id: 8,
       title: "Memes Generator",
       img: "imgs/learning-projects/meme-generator.png",
       alt: "Memes Generator Website image",
@@ -95,7 +108,7 @@ export default function AllProjects() {
       react: "imgs/react.png",
     },
     {
-      id: 8,
+      id: 9,
       title: "Dragon Ball Character",
       img: "imgs/learning-projects/dragon-ball-characters-with-api.png",
       alt: "Dragon Ball Character Website image",
@@ -107,7 +120,7 @@ export default function AllProjects() {
       react: "imgs/react.png",
     },
     {
-      id: 9,
+      id: 10,
       title: "Grocery List",
       img: "imgs/learning-projects/list.png",
       alt: "Grocery List Website image",
@@ -118,7 +131,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 10,
+      id: 11,
       title: "Image Slider",
       img: "imgs/learning-projects/image-slider.png",
       alt: "Image Slider Website image",
@@ -129,7 +142,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 11,
+      id: 12,
       title: "Background Video",
       img: "imgs/learning-projects/background-video.png",
       alt: "background-video-player Website image",
@@ -140,7 +153,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 12,
+      id: 13,
       title: "Calculator",
       img: "imgs/learning-projects/calculator.png",
       alt: "Calculator Website image",
@@ -151,7 +164,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 13,
+      id: 14,
       title: "GitHub User Repos",
       img: "imgs/learning-projects/repos.png",
       alt: "GitHub User Repos Website image",
@@ -162,7 +175,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 14,
+      id: 15,
       title: "Unit Conversion",
       img: "imgs/learning-projects/calc-unit.png",
       alt: "Metric/Imperial Unit Conversion Website image",
@@ -173,7 +186,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 15,
+      id: 16,
       title: "Pepe the Frog Mood",
       img: "imgs/learning-projects/pepe-the-frog.png",
       alt: "Pepe the Frog Website image",
@@ -184,7 +197,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
        {
-      id: 16,
+      id: 17,
       title: "Twitter Clone for Cats",
       img: "imgs/learning-projects/twitter-clone-for-cats.png",
       alt: "PTwitter Clone for Cats Website image",
@@ -195,7 +208,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
         {
-      id: 17,
+      id: 18,
       title: "Color Scheme with API",
       img: "imgs/learning-projects/color-cheme-with-api.png",
       alt: "Color Scheme with API Website image",
@@ -206,7 +219,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
         {
-      id: 18,
+      id: 19,
       title: "Card Game using with API",
       img: "imgs/learning-projects/card-game.png",
       alt: "Card Game using with API Website image",
