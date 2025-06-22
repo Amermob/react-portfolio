@@ -217,7 +217,7 @@ export default function AllProjects() {
     },
     {
       id: 19,
-      title: "Color Scheme with API",
+      title: "Color Scheme",
       img: "imgs/learning-projects/color-cheme-with-api.png",
       alt: "Color Scheme with API Website image",
       code: "https://github.com/Amermob/color-scheme-using-api",
@@ -228,7 +228,7 @@ export default function AllProjects() {
     },
     {
       id: 20,
-      title: "Card Game using with API",
+      title: "Card Game",
       img: "imgs/learning-projects/card-game.png",
       alt: "Card Game using with API Website image",
       code: "https://github.com/Amermob/game-card",
