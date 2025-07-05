@@ -61,7 +61,7 @@ export default function AllProjects() {
       img: "imgs/learning-projects/PSG.png",
       alt: "PSG E-commerce Website Website image",
       code: "https://github.com/Amermob/PS-Games",
-      link: "https://psg-game.netlify.app",
+      link: "https://psg-games.netlify.app",
       html: "imgs/HTML.png",
       css: "imgs/CSS.png",
       js: "imgs/JS.png",
