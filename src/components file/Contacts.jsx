@@ -26,7 +26,7 @@ export default function Contacts() {
           </a>
 
           <p>E-mail: amermob5@gmail.com</p>
-          <p>Location: Riyadh, Al Jiradiyah</p>
+          <p>Location: Saudi Arabia , Riyadh</p>
           <a
             target="_blank"
             href="https://drive.google.com/file/d/1JRXNsgQj6lVhPUrKxZqc05K2Cfkq4Jdw/view?usp=sharing"
