@@ -250,6 +250,17 @@ export default function AllProjects() {
       css: "imgs/CSS.png",
       js: "imgs/JS.png",
     },
+        {
+      id: 22,
+      title: "Test Your Reaction Speed",
+      img: "imgs/learning-projects/reaction.png",
+      alt: "reaction Website image",
+      code: "https://github.com/Amermob/reaction-speed",
+      link: "https://amermob.github.io/reaction-speed/",
+      html: "imgs/HTML.png",
+      css: "imgs/CSS.png",
+      js: "imgs/JS.png",
+    },
   ];
   const learningProjectsList = learningProjects.map((project) => {
     return <Projects key={project.id} {...project} />;
