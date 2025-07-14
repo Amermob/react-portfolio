@@ -56,7 +56,19 @@ export default function AllProjects() {
       react: "imgs/react.png",
     },
         {
-      id: 5,
+      id:5,
+      title: "Guess the Correct Weapon",
+      img: "imgs/learning-projects/guess.png",
+      alt: "Guess the Correct Weapon Website image",
+      code: "https://github.com/Amermob/guess-the-correct-weapon",
+      link: "https://amermob.github.io/guess-the-correct-weapon/",
+      html: "imgs/HTML.png",
+      css: "imgs/CSS.png",
+      js: "imgs/JS.png",
+      react: "imgs/react.png",
+    },
+        {
+      id: 6,
       title: "PSG E-commerce Website",
       img: "imgs/learning-projects/PSG.png",
       alt: "PSG E-commerce Website Website image",
@@ -69,7 +81,7 @@ export default function AllProjects() {
     },
     
        {
-      id: 6,
+      id: 7,
       title: "VanLife",
       img: "imgs/learning-projects/van.png",
       alt: "VanLife Website image",
@@ -82,7 +94,7 @@ export default function AllProjects() {
     },
     
     {
-      id: 7,
+      id: 8,
       title: "Assembly:Endgame",
       img: "imgs/learning-projects/endgame.png",
       alt: "Assembly-Endgame Website image",
@@ -94,7 +106,7 @@ export default function AllProjects() {
       react: "imgs/react.png",
     },
     {
-      id: 8,
+      id: 9,
       title: "Quiz Game",
       img: "imgs/learning-projects/quiz.png",
       alt: "Quiz Game Website image",
@@ -106,7 +118,7 @@ export default function AllProjects() {
       react: "imgs/react.png",
     },
     {
-      id: 9,
+      id: 10,
       title: "Memes Generator",
       img: "imgs/learning-projects/meme-generator.png",
       alt: "Memes Generator Website image",
@@ -118,7 +130,7 @@ export default function AllProjects() {
       react: "imgs/react.png",
     },
     {
-      id: 10,
+      id: 11,
       title: "Dragon Ball Character",
       img: "imgs/learning-projects/dragon-ball-characters-with-api.png",
       alt: "Dragon Ball Character Website image",
@@ -130,7 +142,7 @@ export default function AllProjects() {
       react: "imgs/react.png",
     },
     {
-      id: 11,
+      id: 12,
       title: "Generate a Password",
       img: "imgs/learning-projects/password-generator.png",
       alt: "Generate a Random Password",
@@ -141,7 +153,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 12,
+      id: 13,
       title: "Grocery List",
       img: "imgs/learning-projects/list.png",
       alt: "Grocery List Website image",
@@ -152,7 +164,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 13,
+      id: 14,
       title: "Image Slider",
       img: "imgs/learning-projects/image-slider.png",
       alt: "Image Slider Website image",
@@ -163,7 +175,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 14,
+      id: 15,
       title: "Background Video",
       img: "imgs/learning-projects/background-video.png",
       alt: "background-video-player Website image",
@@ -174,7 +186,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 15,
+      id: 16,
       title: "Calculator",
       img: "imgs/learning-projects/calculator.png",
       alt: "Calculator Website image",
@@ -185,7 +197,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 16,
+      id: 17,
       title: "GitHub User Repos",
       img: "imgs/learning-projects/repos.png",
       alt: "GitHub User Repos Website image",
@@ -196,7 +208,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 17,
+      id: 18,
       title: "Unit Conversion",
       img: "imgs/learning-projects/calc-unit.png",
       alt: "Metric/Imperial Unit Conversion Website image",
@@ -207,7 +219,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 18,
+      id: 19,
       title: "Pepe the Frog Mood",
       img: "imgs/learning-projects/pepe-the-frog.png",
       alt: "Pepe the Frog Website image",
@@ -218,7 +230,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 19,
+      id: 20,
       title: "Twitter Clone for Cats",
       img: "imgs/learning-projects/twitter-clone-for-cats.png",
       alt: "PTwitter Clone for Cats Website image",
@@ -229,7 +241,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 20,
+      id: 21,
       title: "Color Scheme",
       img: "imgs/learning-projects/color-cheme-with-api.png",
       alt: "Color Scheme with API Website image",
@@ -240,7 +252,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
     {
-      id: 21,
+      id: 22,
       title: "Card Game",
       img: "imgs/learning-projects/card-game.png",
       alt: "Card Game using with API Website image",
@@ -251,7 +263,7 @@ export default function AllProjects() {
       js: "imgs/JS.png",
     },
         {
-      id: 22,
+      id: 23,
       title: "Test Your Reaction Speed",
       img: "imgs/learning-projects/reaction.png",
       alt: "reaction Website image",
